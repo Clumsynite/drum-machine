@@ -6,6 +6,8 @@ Another one of my [FCC projects](https://www.freecodecamp.org/learn/front-end-li
 
 Here is the one made in [Codepen](https://codepen.io/ClumsyKnight/full/oNbVPYv), for FCC's Fontend Libraries Certification.
 
+The only thing different is this drum machine's mobile repsonse.
+
 Technologies used: 
 - HTML
 - CSS
