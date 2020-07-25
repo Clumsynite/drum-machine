@@ -89,24 +89,19 @@ body {
   #name {
     font-size: large;
     margin: 20px 0;
+  }  
+  #app {
+    width: 100vw;
   }
   #drum-machine {
-    display: inline-flex;
-    border: 3px solid cyan;
-    width: 60vw;
-    height: 20vh;
-    border-radius: 10px;
-    font-size: 20px;
-    margin: auto;
+    flex-flow: column;
+    width: 40vw;
+    height: 40vh;
   }
   #numpad {
     margin: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 30vw;
-    height: 10vh;
-    row-gap: 5px;
-    column-gap: 5px;
+    width: 90%;
+    height: 20vh;
   }
   .drum-pad {
     font-size: 20px;
@@ -115,9 +110,6 @@ body {
   #display {
     font-size: 16px;
     text-align: center;
-  }
-  #app {
-    width: 80vw;
   }
   #contact {
     font-size: 20px;
