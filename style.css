@@ -85,23 +85,23 @@ body {
   text-decoration: none;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 720px){
   #name {
     font-size: large;
     margin: 20px 0;
   }  
   #app {
-    width: 100vw;
+    width: 100%;
   }
   #drum-machine {
-    flex-flow: column;
-    width: 40vw;
-    height: 40vh;
+    flex-flow: column-reverse;
+    width: 60vw;
+    height: 60vh;
   }
   #numpad {
     margin: 10px;
-    width: 90%;
-    height: 20vh;
+    width: 95%;
+    height: 40vh;
   }
   .drum-pad {
     font-size: 20px;
