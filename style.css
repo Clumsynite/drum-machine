@@ -87,7 +87,7 @@ body {
 
 @media screen and (max-width: 720px){
   #name {
-    font-size: large;
+    font-size: 25px;
     margin: 20px 0;
   }  
   #app {
@@ -99,8 +99,8 @@ body {
     height: 60vh;
   }
   #numpad {
-    margin: 10px;
-    width: 95%;
+    margin: auto;
+    width: 90%;
     height: 40vh;
   }
   .drum-pad {
@@ -112,7 +112,7 @@ body {
     text-align: center;
   }
   #contact {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
   }
 }
